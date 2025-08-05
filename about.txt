@@ -1,0 +1,4 @@
+NAME: Shaik.Mehurunnisha
+COURSE: BCA
+THING I LEARNED FROM GitHub?
+I learned to store, share, and work together with others to write code.
