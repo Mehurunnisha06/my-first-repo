@@ -1,18 +1,14 @@
-name: Poster Upload Notification
+name: Poster Upload
 
-on:
-  push:  # Runs this workflow whenever there is a push to any branch
-    branches:
-      - ''  # all branches
+on: 
+  push:
 
 jobs:
-  notify:
+  show-message:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Show success message
+      - name: Display success message
         run: echo "Poster Uploaded Successfully"
-git add .github/workflows/poster-upload.yml
-git push
